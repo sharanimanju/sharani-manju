@@ -1,0 +1,8 @@
+> library(readxl)
+> gov_data1 <- read_excel("gov_data1.xlsx")
+> View(gov_data1)
+> sharani <- read_excel("gov_data1.xlsx")
+> mean(sharani$max_price)
+[1] 2351.818
+> sd(sharani$min_price)
+[1] 740.9244
